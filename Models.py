@@ -1,6 +1,9 @@
+#region Imports
+# Import des librairies externes.
 import uuid
 from typing import Optional
 from pydantic import BaseModel, Field
+#endregion Imports
 
 class User(BaseModel):
     id: str = Field(default_factory=uuid.uuid4, alias="_id")
