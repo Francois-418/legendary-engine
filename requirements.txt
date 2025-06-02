@@ -1,1 +1,5 @@
-test
+discord-py
+fastapi
+pydantic
+pymongo
+python-dotenv
